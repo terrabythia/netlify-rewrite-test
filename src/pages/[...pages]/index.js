@@ -1,8 +1,13 @@
-const Page = () => {
+const Page = ({ params }) => {
   return (
     <div>
       <h1>Page</h1>
       <p>I am rendered statically (ISR)</p>
+      <pre>{
+        JSON.stringify({
+          params
+        }, null, 2)
+      }</pre>
     </div>
   );
 };
@@ -14,9 +19,11 @@ export async function getStaticPaths() {
   }
 }
 
-export async function getStaticProps() {
+export async function getStaticProps(context) {
   return {
-    props: {}
+    props: {
+      params: context.params
+    }
   }
 }
 
