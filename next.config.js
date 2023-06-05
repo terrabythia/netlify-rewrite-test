@@ -7,11 +7,6 @@ const nextConfig = {
       destination: '/dynamic-pages/render/ssr',
       locale: false,
     },
-    {
-      source: '/render/ssg',
-      destination: '/static-pages/render/ssg',
-      locale: false,
-    }
   ]
 }
 
