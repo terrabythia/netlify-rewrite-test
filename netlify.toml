@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/render/ssr"
+  to = "/.netlify/functions/___netlify-handler"
+  status = 200
+
+[[redirects]]
+  from = "/render/ssg"
+  to = "/.netlify/functions/___netlify-odb-handler"
+  status = 200
