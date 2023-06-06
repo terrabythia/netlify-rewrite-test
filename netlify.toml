@@ -1,5 +1,15 @@
 [[redirects]]
-  from = "/render/ssr"
+  from = "/render/ssr/one"
+  to = "/.netlify/functions/___netlify-handler"
+  status = 200
+
+[[redirects]]
+  from = "/render/ssr/two"
+  to = "/.netlify/functions/___netlify-handler"
+  status = 200
+
+[[redirects]]
+  from = "/render/ssr/three"
   to = "/.netlify/functions/___netlify-handler"
   status = 200
 
