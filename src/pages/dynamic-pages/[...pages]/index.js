@@ -9,8 +9,8 @@ const Page = ({ query, params }) => {
     <div>
       <h1>Page</h1>
       <p>I am rendered server side (SSR)</p>
-      <Link href={`/dynamic-pages/render/ssr/${nextParam}`}>
-        Go to /dynamic-pages/render/ssr/{nextParam}
+      <Link href={`/render/ssr/${nextParam}`}>
+        Go to /render/ssr/{nextParam}
       </Link>
       <pre>{JSON.stringify({
         query,
