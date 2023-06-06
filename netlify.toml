@@ -1,15 +1,60 @@
 [[redirects]]
-  from = "/render/ssr/one"
+  from = "/render-en/ssr/one"
   to = "/.netlify/functions/___netlify-handler"
   status = 200
 
 [[redirects]]
-  from = "/render/ssr/two"
+  from = "/render-en/ssr/two"
   to = "/.netlify/functions/___netlify-handler"
   status = 200
 
 [[redirects]]
-  from = "/render/ssr/three"
+  from = "/render-en/ssr/three"
+  to = "/.netlify/functions/___netlify-handler"
+  status = 200
+
+[[redirects]]
+  from = "/en/render-en/ssr/one"
+  to = "/.netlify/functions/___netlify-handler"
+  status = 200
+
+[[redirects]]
+  from = "/en/render-en/ssr/two"
+  to = "/.netlify/functions/___netlify-handler"
+  status = 200
+
+[[redirects]]
+  from = "/en/render-en/ssr/three"
+  to = "/.netlify/functions/___netlify-handler"
+  status = 200
+
+[[redirects]]
+  from = "/nl/render-nl/ssr/one"
+  to = "/.netlify/functions/___netlify-handler"
+  status = 200
+
+[[redirects]]
+  from = "/nl/render-nl/ssr/two"
+  to = "/.netlify/functions/___netlify-handler"
+  status = 200
+
+[[redirects]]
+  from = "/nl/render-nl/ssr/three"
+  to = "/.netlify/functions/___netlify-handler"
+  status = 200
+
+[[redirects]]
+  from = "/fr/render-fr/ssr/one"
+  to = "/.netlify/functions/___netlify-handler"
+  status = 200
+
+[[redirects]]
+  from = "/fr/render-fr/ssr/two"
+  to = "/.netlify/functions/___netlify-handler"
+  status = 200
+
+[[redirects]]
+  from = "/fr/render-fr/ssr/three"
   to = "/.netlify/functions/___netlify-handler"
   status = 200
 
